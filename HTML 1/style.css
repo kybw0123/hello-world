@@ -1,4 +1,10 @@
 <style>
+  @media (max-width:600px){
+    p{background-color: green;}
+  }
+  @media (min-width:600px){
+    p{background-color: skyblue;}
+  }
 
 body{
   font-size: 3vw;
