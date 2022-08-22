@@ -47,6 +47,7 @@ document.addEventListener("DOMContentLoaded",
                     e.target.textContent = "프로필 편집 완료"
                     changing = true
                 }
+<<<<<<< HEAD
 
             }
         )
@@ -67,6 +68,8 @@ document.addEventListener("DOMContentLoaded",
         profile_pic.addEventListener("click",
           function (e) {
             profile_pic.setAttribute("src", prompt("이미지 url을 입력해 주세요!"))
+=======
+>>>>>>> 780488808917dd0cbb0cf8a7d12c945feb9f759e
 
     }
   )
